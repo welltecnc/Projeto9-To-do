@@ -39,3 +39,10 @@ function listarTarefas(){
     }
     document.getElementById("lista").innerHTML =valor;
 }
+//função remover tarefa
+
+function removerTarefa(){
+    //pop - metodo que remove a utlima linha adicionada
+    tarefas.pop();
+    listarTarefas();
+}
